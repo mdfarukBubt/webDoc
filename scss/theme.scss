@@ -1,0 +1,79 @@
+// import file - Twitter Bootstrap 4.3.1
+@import "./bootstrap/bootstrap";
+
+
+// import file - Roboto Fonts
+$roboto-font-path: "../fonts/roboto";
+@import "roboto";
+
+
+// Font Awesome 5.11 free
+$fa-font-path: "../fonts/fontawesome";
+@import "./fontawesome/fontawesome";
+@import "./fontawesome/regular";
+@import "./fontawesome/solid";
+@import "./fontawesome/brands";
+@import "./fontawesome/v4-shims";
+
+
+// import file - Web Typography fonts 
+$icomoon-font-path: "../fonts/icomoon";
+@import "icomoon";
+
+//import file -  pages
+@import "pages";
+
+//import file -  Variable
+@import "variable";
+
+
+//  Global Section
+body{
+    font-family: roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #fefefel;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+
+}
+
+a{
+
+}
+
+
+// Banner Section
+.main-banner{
+    overflow: hidden;
+
+    .main-banner-left{
+
+        .logo{
+            display: inline-block;
+            margin-left: 10px;
+        }
+    }
+    .main-banner-right{
+        
+        .nav-menubar{
+            margin-right: 10px;
+        }
+    }
+}
+
+// Main Content Section
+
+
+// Footer Section 

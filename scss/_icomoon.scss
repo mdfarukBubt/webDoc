@@ -1,0 +1,50 @@
+$icomoon-font-path: "../fonts/icomoon";    // This line is not mendatory ( if you can use this line or not ) 
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('#{$icomoon-font-path}/icomoon.eot?jo1ak5');
+  src:  url('#{$icomoon-font-path}/icomoon.eot?jo1ak5#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/icomoon.ttf?jo1ak5') format('truetype'),
+    url('#{$icomoon-font-path}/icomoon.woff?jo1ak5') format('woff'),
+    url('#{$icomoon-font-path}/icomoon.svg?jo1ak5#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-calendar:before {
+  content: "\e900";
+}
+.icon-connections:before {
+  content: "\e901";
+}
+.icon-inbox:before {
+  content: "\e902";
+}
+.icon-invoices:before {
+  content: "\e903";
+}
+.icon-notification:before {
+  content: "\e904";
+}
+.icon-rates:before {
+  content: "\e905";
+}
+.icon-search:before {
+  content: "\e906";
+}
